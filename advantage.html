@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D.P.A_Advantage</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(135deg,lightblue,cyan,lightgreen);
+  }
+
+  nav {
+    background-color:; /* Background color of the navigation bar */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding for the content inside the navigation bar */
+
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 5;
+    text-align: left; /* Center-align the list items */
+  }
+  
+  nav li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add some spacing between list items */
+  }
+  
+  nav a {
+    color: black; /* Text color of the links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text for links */
+  }
+  
+  nav a:hover {
+    color: #ffd700; /* Change text color on hover */
+  }
+  .content {
+    position: absolute;
+    top: 15%;
+    left: 18.6%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    color: 	black;
+    z-index: 1; 
+  }
+
+  .transparent-btn {
+    background-color: transparent;
+    border: 1.5px solid #ffffff; /* Border color */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    border-radius: 50px;
+    top: 30%;
+  }
+
+.transparent-btn:hover {
+    background-color:; /* Hover background color */
+    color: black; /* Hover text color */
+    border-color: black; /* Hover border color */
+  }
+
+@keyframes slideIn {
+        0% {
+            transform: translateY(100px);
+            opacity: 0; 
+        }
+        100% {
+            transform: translateY(0); 
+            opacity: 1; 
+        }
+    }
+
+
+    .animated-paragraph {
+        animation: slideIn 1s ease-in-out; 
+    }
+
+@keyframes fadeIn {
+        0% {
+            opacity: 0; 
+        }
+        100% {
+            opacity: 1; 
+        }
+    }
+
+   
+    .fade-in-text {
+        animation: fadeIn 2s ease-in-out; 
+    }
+
+.p_set {
+    position: absolute;
+    top: 20%;
+    left: 5.5%;
+    text-align: left;
+    font-size: 20px;
+    color:black;
+    
+    max-width: 800px
+    
+  }
+
+.flex-container {
+        display: flex; /* Use flexbox */
+    }
+
+
+
+.text-box {
+        width: 300px;
+        height: 250px; 
+        margin: 20px; 
+        padding: 15px; 
+        box-sizing: border-box; 
+        border: 1px solid white; 
+        display: inline-block;
+        vertical-align: top;
+        flex: 1;
+        font-size: 20px;
+    }
+
+
+
+.text_box {
+    position: absolute;
+    top: 75%;
+    left: 50.6%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+  }
+  .bt {
+    background-color: transparent;
+    border: 1.5px solid #ffffff; /* Border color */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    top: 30%;
+  }
+
+  .bt:hover{
+    background-color:; /* Hover background color */
+    color: black; /* Hover text color */
+    border-color: black; /* Hover border color */
+    border-radius: 50px;
+  }
+</style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="Introduction.html"><button class="bt">🔙BACK</button></a></li>
+     
+    </ul>
+  </nav>
+
+<div class="content">
+  <h2 class="fade-in-text"><u>Rise of Digital Payment</u></h2>
+</div>
+
+<div class="p_set">
+  <p class="animated-paragraph"> <b>The Indian payment system has come a long way in the last few decades.There was a time when people fought over the acceptance of torn notes taped together. However, even the remotest areas today have hybrid payment options ranging from cash, Debit or Credit Card, UPI, NetBanking, Mobile Banking, and more.</b></p>
+  <h2 class="fade-in-text"><u>Advantages:-- </u></h2>
+
+  
+</div>
+<div class="text_box">
+    <center><div class="flex-container">
+    <div class="text-box">
+        <h2 class="animated-paragraph"><u>Less Complexity</u></h2>
+        <p class="fade-in-text"> <b>The options of Digital Payments can be accessed anytime and anywhere, removing the need to visit banks or ATMs often.</b></p>    
+    </div>
+
+    <div class="text-box">
+        <h2 class="animated-paragraph"><u>Faster payments</u></h2>
+        <p= class="fade-in-text"><b> Digital payment options like UPI, Debit Cards, etc., are quick to use. They take a few seconds, even for large sums of money, and can be accessed anytime during the day.</b></p>
+    </div>
+
+    <div class="text-box">
+        <h2 class="animated-paragraph"><u>Safer transactions</u></h2>
+        <p= class="fade-in-text"><b>There is a transparent trail of transactions that helps minimize fraud. Everything is done digitally, removing the chances of error or human mistakes.</b></p>
+    </div>
+
+  </div>
+  <button class="transparent-btn"><a href="dis-advantages.html" style="text-decoration:none; color:inherit;">Move to Dis-Advantages📲</a></button>
+</center>
+
+</div>
+
+
+
+
+<div class="overlay"></div>
+
+
+</body>
+</html>
